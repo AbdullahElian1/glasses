@@ -1,0 +1,34 @@
+.glassContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.glassBox {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  width: 33.2%;
+  text-align: center;
+  background-color: #f6f6f4;
+}
+
+.glassBox img {
+  width: 100%;
+}
+
+.glassBox h4 {
+  font-size: larger;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 1000px) {
+  .glassBox {
+    width: 49.85%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .glassBox {
+      width: 100%;
+    }
+  }
+}

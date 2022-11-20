@@ -1,0 +1,31 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.siteHeader {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.siteMenu {
+  width: 5%;
+  height: 41px;
+  text-align: center;
+  line-height: 41px;
+  cursor: pointer;
+}
+
+.siteMenu span {
+  font-size: 1em;
+  display: inline-block;
+}
+
+.siteMenuHover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.siteLogo img {
+  width: 50%;
+}
